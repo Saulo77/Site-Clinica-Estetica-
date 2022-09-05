@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento Online</title>
+    <link rel="stylesheet" href="agendamento.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+</head>
+<body>
+    <div class="container">
+      <div class="img">
+         <img src="foto.png">
+    </div>
+    <div class="form">
+
+            <form action='#'>
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Agendamento Online</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Enviar</a></button>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                
+                        
+                        <label for="nome">Nome</label>
+                        <input type='text' id='nome' name='nome' required maxlength="25"
+                        placeholder ="Digite seu Nome"><br>
+                        <label for="email">Email</label>
+                        <input type='email' id='email' name='email' required placeholder="Digite seu E-mail">
+                        <br>
+                        <label for="fone">Seu Numero</label>
+                        <input type="text" id="fone" name="fone" required maxlength="11"  placeholder="(XX) XXXX-XXXX"><br>
+                        <label for="hora-desejada">Hora desejada</label>
+                        <input type="time" id="hora-desejada" name="hora-desejada" required>
+                        <br>
+                        <label for="dtnasc">Data </label>
+                        <input type='date' id='dtnasc' name='dtnasc'>
+                        <br>
+                        <div class="sexo" > <p>Sexo</p>
+                        <input type="radio" id="sexo-m" name="sexo" value="Masculino">
+                        <label for="sexo-m">Masculino</label><br>
+                        <input type="radio" id="sexo-f" name="sexo" value="Feminino">
+                        <label for="sexo-f">Feminio</label>
+                        <br>
+                        <br>
+                       </div>
+                        
+                            <select>
+                            <option>Como gostaria de ser contactato?</option>
+                            <option>Ligaçâo e WhatsApp</option>
+                            <option>Apenas por WhatsApp</option>
+                            <option>Apenas  por E-mail</option>
+                            <option>Nâo gostaria de ser contactato!</option>
+                            </select>
+                        
+                        <br>
+                     </form>
+                   </div>  
+        </div>  </div>
+    </div>
+
+</body>
+</html>
